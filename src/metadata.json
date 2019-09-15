@@ -1,8 +1,8 @@
 {
-    "shell-version": ["3.18", "3.20", "3.22"],
-    "uuid": "docker-integration@jan.trejbal.gmail.com",
-    "name": "Docker integration",
-    "original-author": "Jan Trejbal",
-    "url": "https://github.com/Trejjam/Gnome-Docker-integration",
-    "description": "Base Docker&Docker compose integration (start, stop, log, up), hide Docker network (veth*)"
+    "shell-version": ["3.18", "3.20", "3.22", "3.24", "3.26", "3.28", "3.30", "3.32", "3.34"],
+    "uuid": "vmware-integration@jami.kettunen.protonmail.com",
+    "name": "VMware Integration",
+    "original-author": "Jan Trejbal, Jami Kettunen",
+    "url": "https://github.com/JamiKettunen/gnome-shell-extension-vmware-integration",
+    "description": "Hide VMware virtual NICs (vmnet*) under the user menu "
 }

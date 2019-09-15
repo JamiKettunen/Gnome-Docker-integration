@@ -5,8 +5,8 @@ const Mainloop = imports.mainloop;
 
 const Main = imports.ui.main;
 
-const DockerNetworkManager = new Lang.Class({
-	Name : 'DockerNetworkManager',
+const VMwareNetworkManager = new Lang.Class({
+	Name : 'VMwareNetworkManager',
 
 	_init : function(extensionName, matchRegExp) {
 		this._extensionName = extensionName;

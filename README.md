@@ -1,13 +1,8 @@
-# Gnome Docker integration
+# VMware Integration for the GNOME Shell
+A simple extension to hide VMware's virtual NICs (vmnet*) under the user menu.
 
-Simple Gnome extension for work with Docker
+## Screenshots
+Coming *very* soon™️
 
-Support:
-- hide `veth*` interface
-
-TODO:
-- start&stop container
-- container logs
-- container bash attach
-
-- docker compose up&start&stop
+## Credits
+Thank you @trejjam for your [Gnome-Docker-integration](https://github.com/trejjam/Gnome-Docker-integration) project! It made this all so much easier ^^
