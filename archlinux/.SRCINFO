@@ -1,15 +1,14 @@
-pkgbase = gnome-shell-extension-docker-integration-git
-	pkgdesc = Base Docker&Docker compose integration (start, stop, log, up), hide Docker network (veth*)
-	pkgver = 20161017
-	pkgrel = 5
-	url = https://github.com/Trejjam/Gnome-Docker-integration
+pkgbase = gnome-shell-extension-vmware-integration-git
+	pkgdesc = Hide VMware's virtual NICs (vmnet*) under the user menu
+	pkgver = 20190915
+	pkgrel = 1
+	url = https://github.com/JamiKettunen/gnome-shell-extension-vmware-integration
 	arch = any
 	license = GPL3
 	makedepends = git
 	depends = gnome-shell>=3.18
 	depends = networkmanager
-	provides = docker-integration-applet
-	source = git://github.com/Trejjam/Gnome-Docker-integration.git
+	source = git://github.com/JamiKettunen/gnome-shell-extension-vmware-integration.git
 	sha1sums = SKIP
 
-pkgname = gnome-shell-extension-docker-integration-git
+pkgname = gnome-shell-extension-vmware-integration-git
