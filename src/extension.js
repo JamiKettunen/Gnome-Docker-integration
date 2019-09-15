@@ -32,7 +32,7 @@ const DockerNetworkManager = Extension.imports.DockerNetworkManager;
 //const _ = Gettext.gettext;
 
 let extensionName = Extension.dir.get_basename();
-let matchRegExp = /^Ethernet \(veth[a-z0-9]+\)$|^$/i;
+let matchRegExp = /^Ethernet \(vmnet[0-9]+\)$|^$/i;
 
 let _instance_dockerNetworkManager;
 
