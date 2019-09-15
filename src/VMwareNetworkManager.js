@@ -5,7 +5,7 @@ const Mainloop = imports.mainloop;
 
 const Main = imports.ui.main;
 
-const VMwareNetworkManager = new Lang.Class({
+var VMwareNetworkManager = new Lang.Class({
 	Name : 'VMwareNetworkManager',
 
 	_init : function(extensionName, matchRegExp) {

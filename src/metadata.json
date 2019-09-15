@@ -4,5 +4,5 @@
     "name": "VMware Integration",
     "original-author": "Jan Trejbal, Jami Kettunen",
     "url": "https://github.com/JamiKettunen/gnome-shell-extension-vmware-integration",
-    "description": "Hide VMware virtual NICs (vmnet*) under the user menu "
+    "description": "Hide VMware's virtual NICs (vmnet*) under the user menu"
 }
